@@ -1,0 +1,56 @@
+# --- Project-specific exclusions ---
+pokerenv/
+__pycache__/
+.git/
+docs/
+
+# --- Python build artifacts ---
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+.pokerenv/
+pip-wheel-metadata/
+site/
+
+# --- Jupyter and notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE and editor files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# --- Test and coverage ---
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+coverage.xml
+.cache/
